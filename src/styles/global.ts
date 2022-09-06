@@ -30,8 +30,12 @@ html {
   color: ${({ theme }) => theme.colors.white};
 }
 
-body, button {
+body, button, input {
   font-size: 1.6rem;
   font-family: sans-serif;
 }
+
+  html, body, #root {
+    height: 100%;
+  }
 `;
